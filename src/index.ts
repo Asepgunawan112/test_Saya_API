@@ -6,7 +6,7 @@ const port: number = 4000;
 
 app.use("/health", (req: Request, res: Response, next: NextFunction) => {
   res.status(200);
-  res.send({ status: "200" });
+  res.send({ status: "200", data: "Server is healthy" });
 });
 
 app.listen(port, () => {
