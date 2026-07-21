@@ -6,7 +6,7 @@ tsconfig.json
 CHANGELOG.md
 README.md
 dist
-build
+bulid
 public
 node_modules
 vercel.json
